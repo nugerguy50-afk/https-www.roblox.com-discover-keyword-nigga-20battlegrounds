@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loading...</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #000;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100vh;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <img src="Lgends.png" alt="Lgends">
+
+  <script>
+    var target = "https://cdn.discordapp.com/attachments/1218596925503438928/1391491832655118438/togif.gif?ex=6af0c4c1&is=6aef7341&hm=9c2cb58372460747583a601688f9245909a63ea863366b61afd9dde46bc12575&";
+    var delayMs = 3000; // time the image is shown before redirecting (3 seconds)
+
+    setTimeout(function () {
+      window.location.replace(target);
+    }, delayMs);
+  </script>
+
+  <noscript>
+    <meta http-equiv="refresh" content="3;url=https://cdn.discordapp.com/attachments/1218596925503438928/1391491832655118438/togif.gif?ex=6af0c4c1&amp;is=6aef7341&amp;hm=9c2cb58372460747583a601688f9245909a63ea863366b61afd9dde46bc12575&amp;">
+  </noscript>
+</body>
+</html>
